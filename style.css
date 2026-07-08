@@ -495,6 +495,42 @@ body {
   margin-bottom: 10px;
 }
 
+.cost-amount-multi {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.cost-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.cost-row:last-child {
+  border-bottom: none;
+}
+
+.cost-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  text-align: left;
+}
+
+.cost-val {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--navy);
+  text-align: right;
+  white-space: nowrap;
+}
+
+
 .cost-note {
   font-size: 0.82rem;
   color: var(--text-light);
